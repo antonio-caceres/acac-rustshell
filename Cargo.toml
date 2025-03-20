@@ -1,0 +1,8 @@
+[workspace]
+members = ["crates/*"]
+# explicit resolver required for virtual workspaces
+resolver = "3"  # Rust 2024
+
+[workspace.package]
+edition = "2024"
+authors = ["Antonio Caceres"]
